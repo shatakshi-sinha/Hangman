@@ -62,9 +62,9 @@ Simply run the script and follow the prompts in your terminal. Enter one letter 
 
 hangman-game/
 │
-├── hangman.py          # Main script containing the game logic
-├── README.md           # Project documentation (this file)
-└── words.py            # Optional file if the word list is separated from the main script
+├── hangman.py          # Main script containing the game logic  
+├── README.md           # Project documentation (this file)  
+└── words.py            # Optional file if the word list is separated from the main script  
 
 
 ## Contributing
