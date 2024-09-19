@@ -1,6 +1,9 @@
 import random
-from hangman_wordlist import word_list
+import string
 
+# Read words from a text file
+with open("hangman_wordlist.txt", "r") as file:
+    word_list = file.read().splitlines()
 chosen_word = random.choice(word_list)
 word_length = len(chosen_word)
 
